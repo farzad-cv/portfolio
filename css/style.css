@@ -392,7 +392,7 @@ p {
 .top_cont_outer {
     position: relative;
     height: 750px;
-    background: url('../img/laptop.jpg') no-repeat;
+    background: url('../img/code3.jpg') no-repeat;
     background-size: cover;
     background-position: bottom;
 }
@@ -450,7 +450,7 @@ p {
 
 .top_left_cont h2 strong {
     font-weight: 700;
-    color: #FFB21F;
+    color: #b6ccfe;
 }
 
 .top_left_cont p {
@@ -2043,4 +2043,8 @@ img.img.img-circle.lt-box {
     float: left;
     width: 60px;
     height: auto;
+}
+
+.hidden {
+    display: none;
 }
