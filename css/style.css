@@ -138,7 +138,7 @@ figure.effect-oscar figcaption {
     transition: background-color 0.35s;
 }
 
-figure.effect-oscar figcaption::before {
+/* figure.effect-oscar figcaption::before {
     position: absolute;
     top: 30px;
     right: 30px;
@@ -146,7 +146,7 @@ figure.effect-oscar figcaption::before {
     left: 30px;
     border: 1px solid #fff;
     content: '';
-}
+} */
 
 figure.effect-oscar h2 {
     margin: 20% 0 10px 0;
@@ -223,7 +223,7 @@ h6 {
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     text-align: center;
-    margin: 0 0 50px 0;
+    margin: 0 0 40px 0;
 }
 
 p {
@@ -518,7 +518,7 @@ a.read_more:hover {
 }
 
 .service_wrapper {
-    padding: 40px 0 40px;
+    padding: 40px 0 0;
 }
 
 .service_block {
@@ -685,7 +685,6 @@ a.contact_btn:hover {
     line-height: 20px;
     color: #222222;
     border-radius: 4px;
-    text-transform: uppercase;
     background: #f7f7f7;
     margin-bottom: 5px;
     transition: all 0.3s ease-in-out;
@@ -702,7 +701,6 @@ a.contact_btn:hover {
 .portfolioContainer {
     margin: 0 auto;
     padding-left: 15px;
-    width: auto !important;
 }
 
 .Portfolio-box {
@@ -1350,9 +1348,9 @@ img {
     padding-bottom: 0px;
 }
 
-#portfolio {
+/* #portfolio {
     padding: 60px 0 40px;
-}
+} */
 
 /* Portfolio Filters */
 
@@ -1421,15 +1419,16 @@ img {
 #portfolio_wrapper {
     position: relative;
     padding: 0;
-    width: 100%;
-    margin: 0 auto;
-    display: block;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 #portfolio_wrapper .one-four {
-    margin: 0!important;
+    /* margin: 0!important; */
     line-height: 0;
-    width: 25%;
+    width: 20%;
     padding: 0;
     position: relative;
 }
@@ -1600,76 +1599,6 @@ img {
     transition-duration: 0s;
 }
 
-/* Portfolio Expander */
-
-#project_container {
-    display: none;
-    background-color: #FFF;
-}
-
-#project-page-button-fullscreen {
-    height: auto;
-    z-index: 100;
-    position: absolute;
-    right: 30px;
-    top: 30px;
-}
-
-#project-page-button-fullscreen li {
-    display: inline-block;
-    font-size: 30px;
-}
-
-#project-page-button-fullscreen li a {
-    background: url(images/close.png) no-repeat #fff;
-    background-size: 50px 50px;
-    width: 50px;
-    height: 50px;
-    display: block;
-    border-radius: 50px;
-    opacity: 0.5;
-}
-
-#project-page-button-fullscreen li a:hover {
-    opacity: 1;
-}
-
-#project-page-button {
-    text-align: center;
-    margin-bottom: 20px;
-    height: auto;
-    position: relative;
-    z-index: 100;
-}
-
-#project-page-button li {
-    display: inline-block;
-    margin: 60px 10px 0px 10px;
-    font-size: 30px;
-}
-
-#project_data {
-    margin-bottom: 0px;
-}
-
-.project-section-title {
-    text-align: center;
-    margin-bottom: 40px;
-}
-
-.project-section-title h1 {
-    margin-bottom: 5px!important;
-    letter-spacing: 1px;
-    font-family: 'Nunito', sans-serif;
-}
-
-.project-page {
-    background-color: #FFF;
-    width: 100%;
-    height: auto;
-    left: 0;
-    padding-bottom: 40px;
-}
 
 /* Portfolio*/
 
@@ -1875,10 +1804,6 @@ div.mc-image {
     padding: 0;
 }
 
-/*
-   Media Queries
---------------------------- */
-
 @media (min-width: 768px) and (max-width: 1200px) {
     .aboutUs-container {
         background-repeat: no-repeat;
@@ -1911,8 +1836,7 @@ div.mc-image {
         padding: 38px 0;
     }
     .top_left_cont h2 {
-        font-size: 25px;
-        color: #FFF;
+        font-size: 18px;
         line-height: 39px;
         margin: 0 0 9px 0;
     }
@@ -1929,7 +1853,7 @@ div.mc-image {
     .service_block h3 {
         font-size: 16px;
     }
-    service_block p {
+    .service_block p {
         font-size: 14px;
         margin: 0px;
         margin-bottom: 20px;
@@ -1996,6 +1920,19 @@ div.mc-image {
         color: #222;
         font-size: 12px;
         padding: 10px 11px;
+    }
+    .top_left_cont h2 strong {
+        font-size: 40px;
+        padding-bottom: 15px;
+    }
+    .top_left_cont p {
+        padding-bottom: 3px;
+        line-height: 13px;
+        font-size: 14px;
+    }
+    #full-stack {
+        font-size: 18px;
+        padding: 10px;
     }
 }
 
