@@ -55,13 +55,14 @@ a, a:hover, a:active {
     cursor: pointer;
 }
 
-.grid figure img {
+/* .grid figure img {
     position: relative;
     display: block;
     min-height: 100%;
     max-width: 100%;
     opacity: 0.8;
-}
+    object-fit: inherit;
+} */
 
 .grid figure figcaption {
     padding: 2em;
@@ -94,6 +95,7 @@ a, a:hover, a:active {
     white-space: nowrap;
     font-size: 0;
     opacity: 0;
+    text-decoration: none;
 }
 
 .grid figure h2 {
@@ -223,7 +225,7 @@ h6 {
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     text-align: center;
-    margin: 0 0 40px 0;
+    margin: 0 0 30px 0;
 }
 
 p {
@@ -1080,11 +1082,7 @@ img {
 ---------------------------------*/
 
 .page_section.contact {
-    padding: 90px 0 100px;
-}
-
-.contact_section {
-    margin: 0 0 60px 0;
+    padding: 90px 0 20px;
 }
 
 .contact_section h2 {
@@ -1144,26 +1142,6 @@ img {
     position: relative;
     top: 26px;
     z-index: 20;
-}
-
-.contact_block span {
-    display: block;
-    font-size: 16px;
-    color: #ffffff;
-    line-height: 20px;
-}
-
-.contact_block span a {
-    display: block;
-    font-size: 16px;
-    color: #ffffff;
-    line-height: 20px;
-}
-
-.contact_info {
-    font-size: 15px;
-    margin: 0 0 0 20px;
-    padding-left: 0;
 }
 
 .contact_info h3 {
@@ -1283,8 +1261,37 @@ img {
     padding: 15px 0;
 }
 
-.footer_bottom span a:hover {
+.footer_wrapper h2 {
+    color: #b6ddd3;
+}
+
+.contact-text {
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #b6ddd3;
+}
+
+.resume-btn {
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    margin: 40px auto 0;
+    text-align: center;
+    padding: 10px;
+    background-color: #b6ddd3;
+    width: 15%;
+    text-decoration: none;
+    color: #2D2D2D;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.resume-btn:hover {
     color: #fff;
+    background-color: #396A5F;
+    transition: background-color 0.3s ease;
 }
 
 /* Animation Timers
@@ -1400,7 +1407,7 @@ img {
     font-family: 'Nunito', sans-serif;
     font-size: 34px;
     letter-spacing: -1px;
-    margin: 0 0 15px;
+    margin: 0 0 25px;
     text-align: center;
 }
 
@@ -1418,8 +1425,8 @@ img {
 
 #portfolio_wrapper {
     position: relative;
-    padding: 0;
-    margin: 0;
+    padding: 30px 0;
+    margin: 15px 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -1447,7 +1454,7 @@ img {
 
 .portfolio-item .portfolio_img img {
     width: 100%;
-    height: auto;
+    height: 230px;
 }
 
 .portfolio-item:hover .item_overlay {
@@ -1598,7 +1605,6 @@ img {
     -o-transition-duration: 0s;
     transition-duration: 0s;
 }
-
 
 /* Portfolio*/
 
@@ -1883,7 +1889,7 @@ div.mc-image {
         font-size: 30px;
     }
     .page_section.contact {
-        padding: 60px 0 50px;
+        padding: 60px 0 30px;
     }
     .navbar-inverse .navbar-toggle .icon-bar {
         background: #40776A;
