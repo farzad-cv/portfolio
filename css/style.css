@@ -1,11 +1,6 @@
-/*
-Author: http://webthemez.com
-*/
-
 @charset "utf-8";
 @import url(http://fonts.googleapis.com/css?family=Signika:400,600);
-/* Reset
----------------------------------*/
+
 
 ul {
     list-style: none;
@@ -1286,23 +1281,7 @@ img {
 
 .footer_bottom {
     border-top: 1px solid #3C3A3A;
-    padding: 25px 0;
-}
-
-.footer_bottom span {
-    display: block;
-    font-size: 14px;
-    color: #cccccc;
-    text-align: center;
-}
-
-.footer_bottom span a {
-    display: inline-block;
-    color: #FDB01D;
-    font-size: 14px;
-    transition: all 0.3s ease-in-out;
-    -moz-transition: all 0.3s ease-in-out;
-    -webkit-transition: all 0.3s ease-in-out;
+    padding: 15px 0;
 }
 
 .footer_bottom span a:hover {
