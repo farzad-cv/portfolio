@@ -3,7 +3,6 @@ Author: http://webthemez.com
 */
 
 @charset "utf-8";
-@import url(https://fonts.googleapis.com/css2?family=Nunito+Sans:300;400;600;800;900);
 @import url(http://fonts.googleapis.com/css?family=Signika:400,600);
 /* Reset
 ---------------------------------*/
@@ -210,7 +209,7 @@ body {
 h2 {
     font-size: 38px;
     color: #222222;
-    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Nunito', sans-serif;
     font-weight: normal;
     margin: 0px 0 25px 0;
     text-align: center;
@@ -438,10 +437,10 @@ p {
 .top_left_cont h2 {
     font-size: 35px;
     color: #ebebeb;
-    margin: 0 0 20px 0;
-    font-family: 'Nunito Sans', sans-serif;
+    margin: 0 0 30px 0;
+    font-family: 'Nunito', sans-serif;
     text-align: center;
-    line-height: 85px;
+    line-height: 95px;
     text-transform: initial;
 }
 
@@ -466,7 +465,7 @@ p {
 }
 
 /* a.read_more, a.read_more2 {
-    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Nunito', sans-serif;
     display: block;
     font-size: 16px;
     width: 178px;
@@ -514,6 +513,10 @@ a.read_more:hover {
     color: #fff;
 }
 
+.service-row {
+    margin-bottom: 60px;
+}
+
 .service_wrapper {
     padding: 40px 0 40px;
 }
@@ -552,15 +555,15 @@ a.read_more:hover {
 }
 
 .service_block h3 {
-    font-family: 'Nunito Sans', sans-serif;
-    font-weight: 600;
-    font-size: 20px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
     color: #fff;
     margin: 35px 0 15px;
 }
 
 #service h6 {
-    color: #fff;
+    color: #dfe7e5;
 }
 
 .service_block p {
@@ -639,7 +642,7 @@ a.contact_btn {
     font-size: 16px;
     color: #40776A;
     border-radius: 3px;
-    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Nunito', sans-serif;
     font-weight: 600;
     border: 2px solid #40776A;
     transition: all 0.2s ease-in-out;
@@ -874,7 +877,7 @@ img {
 }
 
 .points {
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     font-size: 14px;
     padding-left: 0px;
 }
@@ -882,12 +885,12 @@ img {
 .about-us p {
     /*font-size: 0.9375em;*/
     line-height: 1.625em;
-    padding: 15px 0;
+    padding: 15px 0 5px;
 }
 
 .about-us .about-us-list {
     list-style: none;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     padding-left: 0px;
 }
 
@@ -909,6 +912,23 @@ img {
 
 .about-us-link a:first-child {
     margin-left: 0;
+}
+
+.profile-pic {
+    background-image:
+        linear-gradient(
+            rgba(39, 39, 39, 0.15),
+            rgba(39, 39, 39, 0.15)),
+        url(/img/me.jpeg);
+    background-size: cover;
+    height: 650px;
+    width: 95%;
+}
+
+.interesting-facts {
+    margin: 30px 0 20px;
+    font-weight: 600;
+    color: #000
 }
 
 /* Team
@@ -1172,7 +1192,7 @@ img {
     display: block;
     list-style: none;
     text-align: center;
-    margin: 4rem auto;
+    margin: 6rem auto;
 }
 
 .social_links li {
@@ -1399,7 +1419,7 @@ img {
 
 .section-title h2 {
     color: #222222;
-    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Nunito', sans-serif;
     font-size: 34px;
     letter-spacing: -1px;
     margin: 0 0 15px;
@@ -1660,7 +1680,7 @@ img {
 .project-section-title h1 {
     margin-bottom: 5px!important;
     letter-spacing: 1px;
-    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Nunito', sans-serif;
 }
 
 .project-page {
