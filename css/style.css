@@ -1,7 +1,5 @@
 @charset "utf-8";
 @import url(http://fonts.googleapis.com/css?family=Signika:400,600);
-
-
 ul {
     list-style: none;
 }
@@ -430,7 +428,7 @@ p {
 }
 
 .top_left_cont h2 {
-    font-size: 35px;
+    font-size: 40px;
     color: #ebebeb;
     margin: 0 0 30px 0;
     font-family: 'Nunito', sans-serif;
@@ -442,14 +440,15 @@ p {
 .top_left_cont h2 strong {
     font-weight: 700;
     color: #95C6BA;
-    font-size: 60px;
+    font-size: 70px;
 }
 
 .top_left_cont p {
     color: #dfdfdf;
     margin: 8px 0 16px 0;
+    padding-bottom: 3px;
     line-height: 13px;
-    font-size: 18px;
+    font-size: 16px;
     text-align: center;
     letter-spacing: 1px;
     font-weight: normal;
@@ -457,6 +456,12 @@ p {
 
 .underline {
     margin-bottom: 1rem;
+}
+
+#full-stack {
+    font-size: 30px;
+    padding-bottom: 20px;
+    font-family: 'Nunito', sans-serif;
 }
 
 /* a.read_more, a.read_more2 {
@@ -910,11 +915,7 @@ img {
 }
 
 .profile-pic {
-    background-image:
-        linear-gradient(
-            rgba(39, 39, 39, 0.15),
-            rgba(39, 39, 39, 0.15)),
-        url(/img/me.jpeg);
+    background-image: linear-gradient( rgba(39, 39, 39, 0.15), rgba(39, 39, 39, 0.15)), url(/img/me.jpeg);
     background-size: cover;
     height: 650px;
     width: 95%;
@@ -1210,7 +1211,7 @@ img {
 
 .social_links li a:hover, .social_links li a:focus {
     text-decoration: none;
-    transition: transform 0.3s ease-in;
+    transition: transform 0.3s ease-in-out;
     transform: scale(1.25);
 }
 
