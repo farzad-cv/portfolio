@@ -1,516 +1,498 @@
 <!doctype html>
-<html lang="en">
-  <head>
-    <title>Evelyn Pei</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, maximum-scale=1">
+  <title>Evelyn Pei | Portfolio</title>
+  <!-- <link rel="icon" href="favicon.png" type="image/png"> -->
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@master/devicon.min.css">
+  <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="js/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
+  <link href="css/style.css" rel="stylesheet" type="text/css">
+  <link href="css/font-awesome.css" rel="stylesheet" type="text/css">
+  <link href="css/animate.css" rel="stylesheet" type="text/css">
 
-    <link rel="stylesheet" href="css/custom-bs.css">
-    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
-    <link rel="stylesheet" href="fonts/icomoon/style.css">
-    <link rel="stylesheet" href="fonts/line-icons/style.css">
+</head>
+<body>
 
-    <!-- MAIN CSS -->
-    <link rel="stylesheet" href="css/style.css">
-  </head>
-  <body>
+  <section id="hero_section" class="top_cont_outer">
+    <div class="hero_wrapper">
+      <div class="container">
+        <div class="hero_section">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="top_left_cont intro zoomIn wow animated">
+                <h2>hello world<br> <strong>I'm Evelyn Pei</strong></h2>
+                <p id="full-stack">{ Full Stack Web Developer }</p>
+                <p>Spontaneous Traveler • Coffee Drinker</p>
+                <p>Nature Lover • Food Connoisseur </p>
 
-  <div id="overlayer"></div>
-  <div class="loader">
-    <div class="spinner-border text-primary" role="status">
-      <span class="sr-only">Loading...</span>
-    </div>
-  </div>
-
-
-<div class="site-wrap">
-
-    <div class="site-mobile-menu site-navbar-target">
-      <div class="site-mobile-menu-header">
-        <div class="site-mobile-menu-close mt-3">
-          <span class="icon-close2 js-menu-toggle"></span>
-        </div>
-      </div>
-      <div class="site-mobile-menu-body"></div>
-    </div> <!-- .site-mobile-menu -->
-
-
-    <!-- NAVBAR -->
-    <header class="site-navbar mt-3" id="top">
-      <div class="container-fluid">
-        <div class="row align-items-center">
-          <div class="site-logo col-6"><a href="index.html">Evelyn Pei</a></div>
-
-
-
-
-          <nav class="mx-auto site-navigation">
-            <ul class="site-menu js-clone-nav d-none d-lg-block">
-              <li><a href="index.html" class="nav-link active">Home</a></li>
-              <li><a href="about.html">About</a></li>
-              <li><a href="portfolio.html">Portfolio</a></li>
-              <li class="has-children">
-                <a href="services.html">Pages</a>
-                <ul class="dropdown">
-                  <li><a href="services.html">Services</a></li>
-                  <li><a href="service-single.html">Service Single</a></li>
-                  <li><a href="blog-single.html">Blog Single</a></li>
-                  <li><a href="portfolio-single.html">Portfolio Single</a></li>
-                  <li><a href="testimonials.html">Testimonials</a></li>
-                  <li><a href="faq.html">Frequently Ask Questions</a></li>
-                  <li><a href="gallery.html">Gallery</a></li>
+                <div class="underline"></div>
+                <ul class="social_links">
+                  <li class="linkedin animated bounceIn wow delay-02s animated"
+                      style="visibility: visible; animation-name: bounceIn;">
+                    <a href="https://www.linkedin.com/in/evelyn-pei/" target="_blank">
+                      <i class="fa fa-linkedin"></i>
+                    </a>
+                  </li>
+                  <li class="github animated bounceIn wow delay-03s animated"
+                      style="visibility: visible; animation-name: bounceIn;">
+                    <a href="https://github.com/pei-evelyn" target="_blank">
+                      <i class="fa fa-github"></i>
+                    </a>
+                  </li>
+                  <li class="envelope animated bounceIn wow delay-04s animated"
+                      style="visibility: visible; animation-name: bounceIn;">
+                    <a href="mailto:pei.evelyn.s@gmail.com" target="_blank">
+                      <i class="fa fa-envelope"></i>
+                    </a>
+                  </li>
+                  <li class="phone animated bounceIn wow delay-05s animated"
+                      style="visibility: visible; animation-name: bounceIn;">
+                    <a href="tel:5628107733">
+                      <i class="fa fa-phone"></i>
+                    </a>
+                  </li>
                 </ul>
-              </li>
-              <li><a href="blog.html">Blog</a></li>
-              <li><a href="contact.html">Contact</a></li>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <header id="header_wrapper">
+    <div class="container">
+      <div class="header_box">
+        <nav class="navbar navbar-inverse" role="navigation">
+          <div class="navbar-header">
+            <button type="button" id="nav-toggle" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+          </div>
+          <div id="main-nav" class="collapse navbar-collapse navStyle">
+            <ul class="nav navbar-nav" id="mainNav">
+              <li class="active"><a href="#hero_section" class="scroll-link">Home</a></li>
+              <li><a href="#aboutUs" class="scroll-link">About Me</a></li>
+              <li><a href="#service" class="scroll-link">Technologies</a></li>
+              <li><a href="#Portfolio" class="scroll-link">Projects</a></li>
+              <li><a href="#contact" class="scroll-link" id="contact-btn">Contact</a></li>
             </ul>
-          </nav>
-
-          <div class="col-6 site-burger-menu d-block d-lg-none text-right">
-            <a href="#" class="site-menu-toggle js-menu-toggle"><span class="icon-menu h3"></span></a>
           </div>
-
-        </div>
+        </nav>
       </div>
-    </header>
+    </div>
+  </header>
 
-    <!-- HOME -->
-    <section class="home-section section-hero overlay slanted" id="home-section">
-
+  <section id="aboutUs">
+    <div class="inner_wrapper aboutUs-container fadeInLeft animated wow">
       <div class="container">
-        <div class="row align-items-center justify-content-center">
-          <div class="col-md-8 text-center">
-            <h1>Hello world</h1>
-            <div class="mx-auto w-75">
-              <p>I'm Evelyn, a web developer.</p>
+        <h2>About Me</h2>
+        <h6>From customer service to English teacher to web development.  How I ended up here.</h6>
+        <div class="inner_section">
+          <div class="row">
+            <div class="col-lg-12 about-us">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="profile-pic img-responsive"></div>
+                </div>
+                <div class="col-md-6">
+                  <h3>I've always loved to create things.</h3>
+                  <p>
+                    In high school, I was really into graphic design. I was in
+                    yearbook class for a few years, where we used photoshop, illustrator,
+                    indesign and photography to create layouts. That’s what
+                    sparked my creative side.
+                  </p>
+                  <p>
+                    I studied Asian American Studies at UC Irvine, where I got my BA.
+                    As a mix between history and ethics, my major taught how to be truly
+                    empathic, which I've carried forward with me into my work and personal
+                    life.
+                  </p>
+                  <p>
+                    After graduating, I didn't know what I wanted to do. I held positions
+                    in data processing, customer service, and even taught English abroad in
+                    Taiwan for two years. Although I learned a lot, these positions never felt
+                    quite stimulating enough.
+                  </p>
+                  <p>
+                    Coming from a family with a tech background, I never thought this would
+                    be something that I'd develop a passion for. After self teaching
+                    then attending a 14-week full immersion web development bootcamp,
+                    I've dicovered that I enjoy waking up every day because I'll get
+                    to do what I love, which is create and solve problems. I can't wait
+                    to continue learning and improving my skills.
+                  </p>
+                  <h4 class="interesting-facts">
+                    A few interesting facts about me:
+                  </h4>
+                  <ul class="about-us-list">
+                    <li class="points">When I'm not coding, I'm usually out hiking or doing something active.</li>
+                    <li class="points">I have three pet cats: Tiggy, Meowmington, and Himmy. They were all strays!</li>
+                    <li class="points">I love traveling and taking photos (although I'm no where near great at it hah).</li>
+                    <li class="points">I'm addicted to caffiene - gotta have my coffee/tea or I can't function!</li>
+                  </ul>
+                </div>
+              </div>
             </div>
-            <p class="mt-5"><a href="contact.html" class="btn btn-outline-white btn-md ">Get in touch</a></p>
           </div>
         </div>
       </div>
+    </div>
+  </section>
 
-      <!-- VIDEO -->
-      <div class="video-container">
-        <video autoplay loop="true">
-          <source type="video/mp4" src="videos/video.mp4">
-        </video>
-      </div>
 
-      <a href="#about-us-section" class="scroll-button smoothscroll">
-        <span class=" icon-keyboard_arrow_down"></span>
-      </a>
-
-    </section>
-
-    <!-- ABOUT US -->
-    <section class="site-section about-us-section" id="about-us-section">
-      <div class="container">
-
-        <div class="row mb-5 pt-0 site-section">
-          <div class="col-md-6 align-self-center">
-            <h3 class="section-title-sub text-primary">About Us</h3>
-            <h2 class="section-title mb-4">Who Are You Guys</h2>
-
-            <p>Soluta quasi cum delectus eum facilis recusandae nesciunt molestias accusantium libero dolores repellat id in dolorem laborum ad modi qui at quas dolorum voluptatem voluptatum repudiandae.</p>
-            <p>Soluta quasi cum delectus eum facilis recusandae nesciunt molestias accusantium libero dolores repellat id in dolorem laborum ad modi qui at quas dolorum voluptatem voluptatum repudiandae.</p>
-            <p class="mt-4"><a href="#" class="spepcial_link">Read more about us</a></p>
+  <section  id="service">
+    <div class="container">
+      <h2>Technologies</h2>
+      <h6>Here is a list of my current tech stack. I'm constantly looking to learn and add more!</h6>
+      <div class="service_wrapper">
+        <div class="row service-row">
+          <div class="col-sm-3">
+            <div class="service_icon delay-03s animated wow  zoomIn">
+              <span>
+                <i class="devicon-react-original"></i>
+              </span>
+            </div>
+            <div class="service_block">
+              <h3 class="animated fadeInUp wow">React</h3>
+            </div>
           </div>
-          <div class="col-md-5 ml-auto img-overlap">
-            <div class="img-1"><img src="images/sq_img_6.jpg" alt="Image" class="img-fluid img-shadow"></div>
-            <div class="img-2"><img src="images/sq_img_10.jpg" alt="Image" class="img-fluid img-shadow"></div>
+          <div class="col-sm-3">
+            <div class="service_icon icon2  delay-03s animated wow zoomIn">
+              <span>
+                <i class="devicon-javascript-plain"></i>
+              </span>
+            </div>
+            <div class="service_block">
+              <h3 class="animated fadeInUp wow">JavaScript ES5/ES6</h3>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="service_icon icon3  delay-03s animated wow zoomIn">
+              <span>
+                <i class="devicon-nodejs-plain-wordmark"></i>
+              </span>
+            </div>
+            <div class="service_block">
+              <h3 class="animated fadeInUp wow">Node.js</h3>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="service_icon icon3  delay-03s animated wow zoomIn">
+              <span>
+                <i class="devicon-css3-plain"></i>
+              </span>
+            </div>
+            <div class="service_block">
+              <h3 class="animated fadeInUp wow">CSS3</h3>
+            </div>
           </div>
         </div>
-
-        <div class="row pb-0 border-top pt-5 block__19738 section-counter">
-
-          <div class="col-6 col-md-6 col-lg-3 mb-5 mb-lg-0">
-            <div class="d-flex align-items-center justify-content-center mb-2">
-              <span class="icon-line-mobile mr-3"></span>
-              <strong class="number" data-number="2393">0</strong>
+        <div class="row service-row">
+          <div class="col-sm-3">
+            <div class="service_icon delay-03s animated wow  zoomIn">
+              <span>
+                <i class="devicon-postgresql-plain"></i>
+              </span>
             </div>
-            <span class="caption">Completed Projects</span>
-          </div>
-
-          <div class="col-6 col-md-6 col-lg-3 mb-5 mb-lg-0">
-            <div class="d-flex align-items-center justify-content-center mb-2">
-              <span class="icon-line-lightbulb mr-3"></span>
-              <strong class="number" data-number="54">0</strong>
+            <div class="service_block">
+              <h3 class="animated fadeInUp wow">PostgreSQL</h3>
             </div>
-            <span class="caption">Winners &amp; Awards</span>
           </div>
-
-          <div class="col-6 col-md-6 col-lg-3 mb-5 mb-lg-0">
-            <div class="d-flex align-items-center justify-content-center mb-2">
-              <span class="icon-line-trophy mr-3"></span>
-              <strong class="number" data-number="120">0</strong>
+          <div class="col-sm-3">
+            <div class="service_icon icon2  delay-03s animated wow zoomIn">
+              <span>
+                <i class="devicon-html5-plain"></i>
+              </span>
             </div>
-            <span class="caption">Number of Team</span>
-          </div>
-
-          <div class="col-6 col-md-6 col-lg-3 mb-5 mb-lg-0">
-            <div class="d-flex align-items-center justify-content-center mb-2">
-              <span class="icon-line-puzzle mr-3"></span>
-              <strong class="number" data-number="550">0</strong>
+            <div class="service_block">
+              <h3 class="animated fadeInUp wow">HTML5</h3>
             </div>
-            <span class="caption">Line of Codes</span>
           </div>
-
-
+          <div class="col-sm-3">
+            <div class="service_icon icon3  delay-03s animated wow zoomIn">
+              <span>
+                <i class="devicon-express-original"></i>
+              </span>
+            </div>
+            <div class="service_block">
+              <h3 class="animated fadeInUp wow">Express</h3>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="service_icon icon3  delay-03s animated wow zoomIn">
+              <span>
+                <i class="devicon-babel-plain"></i>
+              </span>
+            </div>
+            <div class="service_block">
+              <h3 class="animated fadeInUp wow">Babel</h3>
+            </div>
+          </div>
         </div>
+          <div class="row service-row">
+            <div class="col-sm-3">
+              <div class="service_icon delay-03s animated wow  zoomIn">
+                <span>
+                  <i class="devicon-visualstudio-plain"></i>
+                </span>
+              </div>
+              <div class="service_block">
+                <h3 class="animated fadeInUp wow">Visual Studio</h3>
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <div class="service_icon icon2  delay-03s animated wow zoomIn">
+                <span>
+                  <i class="devicon-jquery-plain"></i>
+                </span>
+              </div>
+              <div class="service_block">
+                <h3 class="animated fadeInUp wow">jQuery</h3>
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <div class="service_icon icon3  delay-03s animated wow zoomIn">
+                <span>
+                  <i class="devicon-github-plain"></i>
+                </span>
+              </div>
+              <div class="service_block">
+                <h3 class="animated fadeInUp wow">GitHub</h3>
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <div class="service_icon icon3  delay-03s animated wow zoomIn">
+                <span>
+                  <i class="devicon-photoshop-plain"></i>
+                </span>
+              </div>
+              <div class="service_block">
+                <h3 class="animated fadeInUp wow">Photoshop</h3>
+              </div>
+            </div>
+          </div>
+          <div class="row service-row">
+            <div class="col-sm-3">
+              <div class="service_icon delay-03s animated wow  zoomIn">
+                <span>
+                  <i class="devicon-git-plain"></i>
+                </span>
+              </div>
+              <div class="service_block">
+                <h3 class="animated fadeInUp wow">git</h3>
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <div class="service_icon icon2  delay-03s animated wow zoomIn">
+                <span>
+                  <i class="devicon-illustrator-plain"></i>
+                </span>
+              </div>
+              <div class="service_block">
+                <h3 class="animated fadeInUp wow">Illustrator</h3>
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <div class="service_icon icon3  delay-03s animated wow zoomIn">
+                <span>
+                  <i class="devicon-bootstrap-plain"></i>
+                </span>
+              </div>
+              <div class="service_block">
+                <h3 class="animated fadeInUp wow">Bootstrap 4</h3>
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <div class="service_icon icon3  delay-03s animated wow zoomIn">
+                <span>
+                  <i class="devicon-npm-original-wordmark"></i>
+                </span>
+              </div>
+              <div class="service_block">
+                <h3 class="animated fadeInUp wow">npm</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+
+
+  <section id="Portfolio" class="content">
+    <div class="container portfolio_title">
+      <div class="section-title">
+        <h2>Projects</h2>
+        <h6>Here are the applications I've worked on, including personal and team projects.</h6>
+      </div>
+    </div>
+
+    <!-- Portfolio Filters -->
+    <!-- <div class="portfolio">
+
+      <div id="filters" class="sixteen columns">
+        <ul class="clearfix">
+          <li>
+            <a id="all" href="#" data-filter="*" class="active">
+              <h5>All</h5>
+            </a>
+          </li>
+          <li>
+            <a class="" href="#" data-filter=".javascript">
+              <h5>JavaScript</h5>
+            </a>
+          </li>
+          <li>
+            <a class="" href="#" data-filter=".react">
+              <h5>React</h5>
+            </a>
+          </li>
+          <li>
+            <a class="" href="#" data-filter=".nodejs">
+              <h5>Node.js</h5>
+            </a>
+          </li>
+          <li>
+            <a class="" href="#" data-filter=".bootstrap">
+              <h5>Bootstrap</h5>
+            </a>
+          </li>
+        </ul>
+      </div> -->
+      <!--/Portfolio Filters -->
+
+      <!-- Portfolio Wrapper -->
+      <div class="isotope fadeInLeft animated wow grid" id="portfolio_wrapper">
+        <!-- Portfolio Item -->
+        <figure class="portfolio-item one-four  bootstrap react javascript nodejs isotope-item effect-oscar">
+          <div class="portfolio_img">
+            <img src="img/monocle-portfolio.jpg"  alt="Monocle">
+          </div>
+          <figcaption>
+            <div>
+              <a href="https://monocle.evelynpei.com/" target="_blank" class="fancybox">
+                <h2><span>Monocle</span></h2>
+                <p>Full stack ecommerce shopping cart application</p>
+              </a>
+            </div>
+          </figcaption>
+        </figure>
+        <!--/Portfolio Item -->
+
+        <!-- Portfolio Item-->
+        <figure class="portfolio-item one-four bootstrap react javascript nodejs isotope-item effect-oscar">
+          <div class="portfolio_img">
+            <img src="img/bork-porfolio.jpg" alt="borkfrens">
+          </div>
+          <figcaption>
+            <div>
+              <a href="https://borkfrens.evelynpei.com/" class="fancybox">
+                <h2><span>borkfrens</span></h2>
+                <p>Mobile web app for dog owners to find dog frens</p>
+              </a>
+            </div>
+          </figcaption>
+        </figure>
+        <!--/Portfolio Item -->
+
+        <!-- Portfolio Item -->
+        <figure class="portfolio-item one-four javascript isotope-item effect-oscar">
+          <div class="portfolio_img">
+            <img src="img/tappd-portfolio.jpg" alt="Tappd">
+          </div>
+          <figcaption>
+            <div>
+              <a href="https://pei-evelyn.github.io/tappd/" target="_blank" class="fancybox">
+                <h2><span>Tappd</span></h2>
+                <p>Mobile web app for drink recipes or breweries</p>
+              </a>
+            </div>
+          </figcaption>
+        </figure>
+        <!--/Portfolio Item-->
+
+        <!-- Portfolio Item-->
+        <figure class="portfolio-item one-four  javascript isotope-item effect-oscar">
+          <div class="portfolio_img">
+            <img src="img/memory-portfolio.jpg" alt="Memory Match">
+          </div>
+          <figcaption>
+          <div>
+            <a href="https://pei-evelyn.github.io/studio-ghibli-memory-match/"
+              target="_blank"
+              class="fancybox">
+            <h2><span>Match</span></h2>
+                <p>Studio Ghibli themed memory matching game</p>
+            </a>
+          </div>
+        </figcaption>
+        </figure>
+        <!-- Portfolio Item -->
 
       </div>
-    </section>
+      <!--/Portfolio Wrapper -->
 
-    <!-- SERVICES -->
-    <section class="site-section services-section bg-light block__62849" id="services-section">
-      <div class="container">
-        <div class="row mb-5">
-          <div class="col-12 text-center" data-aos="fade">
-            <h3 class="section-title-sub text-primary">Our Services</h3>
-            <h2 class="section-title mb-3">Services</h2>
-          </div>
+    </div>
+    <!--/Portfolio Filters -->
+
+
+  </section>
+
+  <footer class="footer_wrapper" id="contact">
+    <div class="container">
+      <section class="page_section contact">
+        <div class="contact_section">
+          <h2>Get In Touch</h2>
+          <h6 class="contact-text">Open and actively looking for opportunities.</h6>
+          <h6 class="contact-text">Please reach me at any of the links provided below.</h6>
+          <a class="resume-btn" href="https://drive.google.com/file/d/1RGdrpFJhjLZvdLfQCAhP_pjXibx_VqmL/view" target="_blank">
+            MY RESUME
+          </a>
         </div>
         <div class="row">
-          <div class="col-6 col-md-6 col-lg-4 mb-4 mb-lg-5">
-
-            <a href="service-single.html" class="block__16443 text-center d-block">
-              <span class="custom-icon mx-auto"><span class="icon-line-tools d-block"></span></span>
-              <h3>Graphic Design</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit facilis, pariatur harum labore aperiam assumenda.</p>
-            </a>
-
-          </div>
-          <div class="col-6 col-md-6 col-lg-4 mb-4 mb-lg-5">
-
-            <a href="service-single.html" class="block__16443 text-center d-block">
-              <span class="custom-icon mx-auto"><span class="icon-line-lightbulb d-block"></span></span>
-              <h3>Marketing Strategy</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit facilis, pariatur harum labore aperiam assumenda.</p>
-            </a>
-
-          </div>
-          <div class="col-6 col-md-6 col-lg-4 mb-4 mb-lg-5">
-
-            <a href="service-single.html" class="block__16443 text-center d-block">
-              <span class="custom-icon mx-auto"><span class="icon-line-laptop d-block"></span></span>
-              <h3>Web Design</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit facilis, pariatur harum labore aperiam assumenda.</p>
-            </a>
-
-          </div>
-          <div class="col-6 col-md-6 col-lg-4 mb-4 mb-lg-5">
-
-            <a href="service-single.html" class="block__16443 text-center d-block">
-              <span class="custom-icon mx-auto"><span class="icon-line-search d-block"></span></span>
-              <h3>SEO</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit facilis, pariatur harum labore aperiam assumenda.</p>
-            </a>
-
-          </div>
-          <div class="col-6 col-md-6 col-lg-4 mb-4 mb-lg-5">
-
-            <a href="service-single.html" class="block__16443 text-center d-block">
-              <span class="custom-icon mx-auto"><span class="icon-line-presentation d-block"></span></span>
-              <h3>Market Leading </h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit facilis, pariatur harum labore aperiam assumenda.</p>
-            </a>
-
-          </div>
-          <div class="col-6 col-md-6 col-lg-4 mb-4 mb-lg-5">
-
-            <a href="service-single.html" class="block__16443 text-center d-block">
-              <span class="custom-icon mx-auto"><span class="icon-line-ribbon d-block"></span></span>
-              <h3>Pixel Perfect Design</h3>
-              <p class="d-sm-block">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit facilis, pariatur harum labore aperiam assumenda.</p>
-            </a>
-
+          <div class="col wow fadeInLeft">
+          <ul class="social_links">
+            <li class="linkedin animated bounceIn wow delay-02s animated" style="visibility: visible; animation-name: bounceIn;">
+              <a href="https://www.linkedin.com/in/evelyn-pei/" target="_blank">
+                <i class="fa fa-linkedin"></i>
+              </a>
+            </li>
+            <li class="github animated bounceIn wow delay-03s animated" style="visibility: visible; animation-name: bounceIn;">
+              <a href="https://github.com/pei-evelyn" target="_blank">
+                <i class="fa fa-github"></i>
+              </a>
+            </li>
+            <li class="envelope animated bounceIn wow delay-04s animated" style="visibility: visible; animation-name: bounceIn;">
+              <a href="mailto:pei.evelyn.s@gmail.com" target="_blank">
+                <i class="fa fa-envelope"></i>
+              </a>
+            </li>
+            <li class="phone animated bounceIn wow delay-05s animated" style="visibility: visible; animation-name: bounceIn;">
+              <a href="tel:5628107733">
+                <i class="fa fa-phone"></i>
+              </a>
+            </li>
+          </ul>
           </div>
         </div>
-
-        <div class="row">
-          <div class="col-12 text-center">
-            <a href="#" class="btn btn-primary btn-md">View All Services</a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- PORTFOLIO -->
-
-    <section class="site-section block__62272" id="portfolio-section">
+      </section>
+    </div>
+  </footer>
 
 
-      <div class="container">
+  <script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/jquery-scrolltofixed.js"></script>
+  <script type="text/javascript" src="js/jquery.nav.js"></script>
+  <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+  <script type="text/javascript" src="js/jquery.isotope.js"></script>
+  <script src="js/fancybox/jquery.fancybox.pack.js" type="text/javascript"></script>
+  <script type="text/javascript" src="js/wow.js"></script>
+  <script src="contact/jqBootstrapValidation.js"></script>
+  <script src="contact/contact_me.js"></script>
+  <script type="text/javascript" src="js/custom.js"></script>
 
-        <div class="row mb-3">
-          <div class="col-12 text-center" data-aos="fade">
-            <h3 class="section-title-sub text-primary">Awesome Works</h3>
-            <h2 class="section-title mb-3">Portfolio</h2>
-          </div>
-        </div>
-
-        <div class="row justify-content-center mb-5" data-aos="fade-up">
-          <div id="filters" class="filters text-center button-group col-md-7">
-            <button class="btn btn-primary active" data-filter="*">All</button>
-            <button class="btn btn-primary" data-filter=".web">Web</button>
-            <button class="btn btn-primary" data-filter=".design">Design</button>
-            <button class="btn btn-primary" data-filter=".brand">Brand</button>
-          </div>
-        </div>
-
-        <div id="posts" class="row no-gutter">
-          <div class="item web col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
-            <a href="portfolio-single.html" class="item-wrap">
-              <span class="icon-add"></span>
-              <img class="img-fluid" src="images/sq_img_1.jpg">
-            </a>
-          </div>
-          <div class="item web col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
-            <a href="portfolio-single.html" class="item-wrap">
-              <span class="icon-add"></span>
-              <img class="img-fluid" src="images/sq_img_2.jpg">
-            </a>
-          </div>
-
-          <div class="item brand col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
-            <a href="portfolio-single.html" class="item-wrap">
-              <span class="icon-add"></span>
-              <img class="img-fluid" src="images/sq_img_3.jpg">
-            </a>
-          </div>
-
-          <div class="item design col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
-
-            <a href="portfolio-single.html" class="item-wrap">
-              <span class="icon-add"></span>
-              <img class="img-fluid" src="images/sq_img_4.jpg">
-            </a>
-
-          </div>
-
-          <div class="item web col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
-            <a href="portfolio-single.html" class="item-wrap">
-              <span class="icon-add"></span>
-              <img class="img-fluid" src="images/sq_img_5.jpg">
-            </a>
-          </div>
-
-          <div class="item brand col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
-            <a href="portfolio-single.html" class="item-wrap">
-              <span class="icon-add"></span>
-              <img class="img-fluid" src="images/sq_img_6.jpg">
-            </a>
-          </div>
-
-          <div class="item web col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
-            <a href="portfolio-single.html" class="item-wrap">
-              <span class="icon-add"></span>
-              <img class="img-fluid" src="images/sq_img_7.jpg">
-            </a>
-          </div>
-
-          <div class="item design col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
-            <a href="portfolio-single.html" class="item-wrap">
-              <span class="icon-add"></span>
-              <img class="img-fluid" src="images/sq_img_8.jpg">
-            </a>
-          </div>
-
-          <div class="item web col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
-            <a href="portfolio-single.html" class="item-wrap">
-              <span class="icon-add"></span>
-              <img class="img-fluid" src="images/sq_img_9.jpg">
-            </a>
-          </div>
-
-          <div class="item design col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
-            <a href="portfolio-single.html" class="item-wrap">
-              <span class="icon-add"></span>
-              <img class="img-fluid" src="images/sq_img_10.jpg">
-            </a>
-          </div>
-
-          <div class="item brand col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
-            <a href="portfolio-single.html" class="item-wrap">
-              <span class="icon-add"></span>
-              <img class="img-fluid" src="images/sq_img_11.jpg">
-            </a>
-          </div>
-
-          <div class="item design col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
-            <a href="portfolio-single.html" class="item-wrap">
-              <span class="icon-add"></span>
-              <img class="img-fluid" src="images/sq_img_12.jpg">
-            </a>
-          </div>
-
-
-        </div>
-      </div>
-
-    </section>
-
-    <section class="site-section" id="next-section">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-lg-6 mb-5 mb-lg-0">
-            <a data-fancybox data-ratio="2" href="https://vimeo.com/317571768" class="block__96788">
-              <span class="play-icon"><span class="icon-play"></span></span>
-              <img src="images/sq_img_6.jpg" alt="Image" class="img-fluid img-shadow">
-            </a>
-          </div>
-          <div class="col-lg-5 ml-auto">
-            <h3 class="section-title-sub text-primary">Watch the video</h3>
-            <h2 class="section-title mb-3">We Are Web Agency</h2>
-            <p class="lead">Eveniet voluptatibus voluptates suscipit minima, cum voluptatum ut dolor, sed facere corporis qui, ea quisquam quis odit minus nulla vitae. Sit, voluptatem.</p>
-            <p>Ipsum harum assumenda in eum vel eveniet numquam, cumque vero vitae enim cupiditate deserunt eligendi officia modi consectetur. Expedita tempora quos nobis earum hic ex asperiores quisquam optio nostrum sit!</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-
-
-    <section class="site-section block__45439">
-      <div class="container">
-        <div class="row mb-5">
-          <div class="col-12 text-center" data-aos="fade">
-            <h3 class="section-title-sub text-primary">Read the latest post</h3>
-            <h2 class="section-title mb-3">Blog Posts</h2>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-6 col-lg-6 mb-4">
-            <div class="block__86547 d-block d-xl-flex align-items-stretch">
-              <figure class="img" style="background-image: url('images/sq_img_1.jpg')">
-              </figure>
-              <div class="h-100">
-                <h3 class="mb-4"><a href="#">Undefined: The Third Boolean Values</a></h3>
-                <div class="block__27192 d-flex pt-1 border-top">
-                  <a href="#"><span class="icon-person"></span> Jacob Smith</a>
-                  <a href="#"><span class="icon-calendar-o"></span> 7 Apr 2019</a>
-                  <a href="#"><span class="icon-chat"></span> 2</a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-6 mb-4">
-            <div class="block__86547 d-block d-xl-flex align-items-stretch">
-              <figure class="img" style="background-image: url('images/sq_img_2.jpg')">
-              </figure>
-              <div class="h-100">
-                <h3 class="mb-4"><a href="#">Where Do You Learn HTML & CSS in 2020?</a></h3>
-                <div class="block__27192 d-flex pt-1 border-top">
-                  <a href="#"><span class="icon-person"></span> Jacob Smith</a>
-                  <a href="#"><span class="icon-calendar-o"></span> 7 Apr 2019</a>
-                  <a href="#"><span class="icon-chat"></span> 2</a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-6 col-lg-6 mb-4">
-            <div class="block__86547 d-block d-xl-flex align-items-stretch">
-              <figure class="img" style="background-image: url('images/sq_img_4.jpg')">
-              </figure>
-              <div class="h-100">
-                <h3 class="mb-4"><a href="#">Where Do You Learn HTML & CSS in 2020?</a></h3>
-                <div class="block__27192 d-flex pt-1 border-top">
-                  <a href="#"><span class="icon-person"></span> Jacob Smith</a>
-                  <a href="#"><span class="icon-calendar-o"></span> 7 Apr 2019</a>
-                  <a href="#"><span class="icon-chat"></span> 2</a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-6 mb-4">
-            <div class="block__86547 d-block d-xl-flex align-items-stretch">
-              <figure class="img" style="background-image: url('images/sq_img_5.jpg')">
-              </figure>
-              <div class="h-100">
-                <h3 class="mb-4"><a href="#">Undefined: The Third Boolean Value</a></h3>
-                <div class="block__27192 d-flex pt-1 border-top">
-                  <a href="#"><span class="icon-person"></span> Jacob Smith</a>
-                  <a href="#"><span class="icon-calendar-o"></span> 7 Apr 2019</a>
-                  <a href="#"><span class="icon-chat"></span> 2</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <footer class="site-footer slanted-footer">
-
-      <a href="#top" class="smoothscroll scroll-top">
-        <span class="icon-keyboard_arrow_up"></span>
-      </a>
-
-      <div class="container">
-        <div class="row mb-5">
-          <div class="col-6 col-md-3 mb-4 mb-md-0">
-            <h3>Scenic Products</h3>
-            <ul class="list-unstyled">
-              <li><a href="#">Web Design</a></li>
-              <li><a href="#">Graphic Design</a></li>
-              <li><a href="#">Web Developers</a></li>
-              <li><a href="#">Resources</a></li>
-            </ul>
-          </div>
-          <div class="col-6 col-md-3 mb-4 mb-md-0">
-            <h3>Company</h3>
-            <ul class="list-unstyled">
-              <li><a href="#">About Us</a></li>
-              <li><a href="#">Career</a></li>
-              <li><a href="#">Blog</a></li>
-              <li><a href="#">Resources</a></li>
-            </ul>
-          </div>
-          <div class="col-6 col-md-3 mb-4 mb-md-0">
-            <h3>Support</h3>
-            <ul class="list-unstyled">
-              <li><a href="#">Support</a></li>
-              <li><a href="#">Privacy</a></li>
-              <li><a href="#">Terms of Service</a></li>
-            </ul>
-          </div>
-          <div class="col-6 col-md-3 mb-4 mb-md-0">
-            <h3>Contact Us</h3>
-            <div class="footer-social">
-              <a href="#"><span class="icon-facebook"></span></a>
-              <a href="#"><span class="icon-twitter"></span></a>
-              <a href="#"><span class="icon-instagram"></span></a>
-              <a href="#"><span class="icon-linkedin"></span></a>
-            </div>
-          </div>
-        </div>
-
-        <div class="row text-center d-none">
-          <div class="col-12">
-            <p class="copyright"><small class="block">
-            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-            Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart text-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" >Colorlib</a>
-            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-            </small></p>
-          </div>
-        </div>
-      </div>
-    </footer>
-
-  </div>
-
-    <!-- SCRIPTS -->
-    <script src="js/jquery.min.js"></script>
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="js/isotope.pkgd.min.js"></script>
-    <script src="js/stickyfill.min.js"></script>
-    <script src="js/jquery.fancybox.min.js"></script>
-    <script src="js/jquery.easing.1.3.js"></script>
-
-    <script src="js/jquery.waypoints.min.js"></script>
-    <script src="js/jquery.animateNumber.min.js"></script>
-
-    <script src="js/custom.js"></script>
-  </body>
+</body>
 </html>
