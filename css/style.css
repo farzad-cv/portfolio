@@ -1612,6 +1612,7 @@ div.mc-image {
         height: 90vh;
         background-size: cover;
         background-repeat: no-repeat;
+        background-position-x: 30%;
     }
 }
 
