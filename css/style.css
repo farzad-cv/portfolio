@@ -556,7 +556,6 @@ a.read_more:hover {
     color: #dfe7e5;
 }
 
-
 /* Latest Work
 ---------------------------------*/
 
@@ -1223,8 +1222,8 @@ img {
 }
 
 .portfolio-github:hover {
-    color: #2D2D2D;
-    background-color: #b6ddd3;
+    color: #fff;
+    background-color: #396A5F;
     transition: background-color 0.3 ease-in-out;
 }
 
@@ -1620,12 +1619,10 @@ div.mc-image {
     .service-row {
         margin-bottom: 20px;
     }
-
     .icon-col {
         flex-basis: 50%;
         margin-bottom: 15px;
     }
-
     .resume-btn {
         width: 30%;
     }
